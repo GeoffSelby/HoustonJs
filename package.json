@@ -1,0 +1,22 @@
+{
+  "name": "houstonjs",
+  "version": "1.0.0",
+  "description": "An ultra lightweight countdown plugin with zero dependencies.",
+  "author": "Geoff Selby (http://geoffselby.github.io)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeoffSelby/HoustonJs.git"
+  },
+  "keywords": ["countdown", "vanilla", "js"],
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^6.0.0-9",
+    "laravel-elixir-webpack-official": "^1.0.2",
+    "lodash": "^4.14.0"
+  }
+}
